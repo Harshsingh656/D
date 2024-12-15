@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Surprise for Mom</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio id="backgroundMusic" autoplay loop>
+    <source src="TumHiHo.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Background Effects -->
+  <div id="fallingFlowers"></div>
+  <div id="fallingHearts"></div>
+
+  <!-- Dog Animation -->
+  <div class="dog-container">
+    <img src="dog-animation.gif" id="dog" alt="Tap Me" onclick="showPopUp()">
+    <div class="dog-text">Tap me for a surprise!</div>
+  </div>
+
+  <!-- Pop-Up with Book of Flowers -->
+  <div id="popUp" class="pop-up">
+    <div id="bookOfFlowers">
+      <p id="shayari"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
